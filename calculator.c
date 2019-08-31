@@ -3,14 +3,14 @@
 void main()
         {
             int a,b,ch;
-            printf("Enter two values ");
-            scanf("%d %d ",&a,&b);
             printf("1. Addition of two numbers");
             printf("\n2. Subtract two numbers");
             printf("\n3. Multiply two numbers");
             printf("\n4. Remainder two numbers");
-            printf("\n Enter Your Choice");
+            printf("\n Enter Your Choice:");
             scanf("%d",&ch);
+            printf("Enter two values:");
+            scanf("%d %d",&a,&b);
             switch(ch)
                 {
               case 1:
